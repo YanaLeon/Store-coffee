@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>Интернет магазин кофе Millor</title>
+
+  </head>
+  <body>
+   <header class="header">
+   <nav>
+         <div class="container">
+         <div class="navbar">
+          <div class="button">
+            <div class="button-place" id="button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          <a href="/Sites/0039820/Leonovich_coffee.html" class="logo" id="logo"><img src="images/Logo.svg" alt="Логотип Millor" width="220" height="90"></a>
+          <ul class="menu" id="menu">
+            <li><a href="/index2.html">Кофе</a></li>
+            <li><a href="/Sites/0039820/Chai_i_napitki.html">Чай</a></li>
+            <li><a href="/Sites/0039820/Zdorovoe_pitanie.html">Здоровое питание</a></li>
+            <li><a href="/Sites/0039820/Blog.html">Блог</a></li>
+            <li><a href="/Sites/0039820/Kontakt.html">Контакты</a></li>
+          </ul>
+          <div class="person"><span class="material-symbols-outlined" style="font-size: 40px; color: black">person</span>
+          <span class="material-symbols-outlined" style="font-size: 40px; color: black">shopping_cart</span></div>
+        </div>
+      </div>
+    </nav>
+ <div class="mini" id="mini"></div>
+ <script src="Menu.js"></script>
+</header>    
+
+
+<main>
+ <div class="main-container-katalog">
+    <div class="main-container-page"><a href="/Sites/0039820/Leonovich_coffee.html">Главная</a><span></span><p>Чай и кофейные напитки</p></div>
+   <div class="main-container-katalog-block">
+   <div class="main-container-katalog-title"><p>Чай и кофейные напитки</p></div>
+   <div class="main-container-katalog-image"><img src="images/Green-tea.png" alt="Чашка кофе"></div>
+   </div>
+</div>
+
+<div class="main">
+      <div class="main-container-katalog-choose-block-checkbox"> 
+               <div class="checkbox">
+                     <input type="radio" name="radio" value="1" id="tea1" class="tea_radio1" data-for="block-1 block-2">
+                     <label for="tea1" class="tea_number1">
+                       <img src="images/Tea.jpeg" alt="Чёрный чай">
+                       <span>Черный чай</span>
+                     </label>  
+               </div>
+
+               <div class="checkbox"> 
+                    <input type="radio" name="radio" value="2" id="tea2" class="tea_radio2" data-for="block-3 block-4 block-5">
+                    <label for="tea2" class="tea_number2">
+                    <img src="images/Tea-green.jpeg" alt="Зелёный чай">
+                    <span>Зеленый чай</span>
+                    </label>
+               </div>
+
+               <div class="checkbox">
+                   <input type="radio" name="radio" value="3" id="tea3" class="tea_radio3" data-for="block-6">
+                   <label for="tea3" class="tea_number3">
+                   <img src="images/Tea-milk.jpeg" alt="Молочный улунг">
+                   <span>Молочный улунг</span>
+                   </label>
+               </div>
+
+               <div class="checkbox">
+                  <input type="radio" name="radio" value="4" id="tea4" class="tea_radio4" data-for="block-7">
+                  <label for="tea4" class="tea_number4">
+                  <img src="images/Herbal.jpeg" alt="Травяной чай"  class="herbal">
+                   <span>Травяной чай</span>
+                  </label>
+               </div>
+
+               <div class="checkbox">
+                  <input type="radio" name="radio" value="5" id="tea5" class="tea_radio5" data-for="block-8">
+                  <label for="tea5" class="tea_number5">
+                  <img src="images/Matcha2.jpeg" alt="Матча">
+                   <span>Матча</span>
+                  </label>
+               </div>
+              
+              <div class="checkbox">
+                  <input type="radio" name="radio" value="6" id="tea6" class="tea_radio6" data-for="block-9">
+                  <label for="tea6" class="tea_number6">
+                  <img src="images/Coffee-napitok2.jpeg" alt="Кофейный напиток">
+                   <span>Кофейные напитки</span>
+                  </label>
+               </div>
+    </div>     
+</div>
+
+
+<div class="block-katalog-products-body">
+  <div class="block-katalog-products-body-filter">
+   <form method=get action='/action' class="filter">
+    <select name="filter" class="chose">
+        <option value=1 selected>Фильтровать</option>
+        <option value=2>По убыванию цены</option>
+        <option value=3>По возрастанию цены</option>
+        <option value=4>По рейтингу</option>
+    </select>
+</form>
+    </div>
+ <div class="block-katalog-products-body-products">
+
+    <div class="block-katalog-products" id="block-1">
+
+       <div class="block-katalog-products-katalog-1">
+
+       <div class="block-katalog-products-rating">
+          <div class="block-katalog-products-top_1">
+             <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <p class="rating">5.0</p> 
+            </div>
+            <div class="block-katalog-products-weight">
+              <form class="block-katalog-products-choose" method=get action="/action">
+                 <select name="weight-BLACK OP-first" class="products">
+                 <option class="first" value="1">150г.</option>
+                 <option class="second" value="2">200г.</option>
+                 </select>
+             </form>
+          </div>
+      </div>
+       <div class="block-katalog-products-discribe">
+          <div class="block-katalog-products-image">
+                <img src="images/Tea.jpeg" alt="Упаковка чая Large leaf species BLACK OP">
+                <div class="block-katalog-products-discount"><span class="material-symbols-outlined">percent</span></div>
+          </div>
+      </div>
+        <div class="block-katalog-products-title"><p>Large leaf species BLACK OP</p></div>
+
+        <div class="block-katalog-products-footer">
+            <div class="block-katalog-products-cost"><div class="cost"><p>10 BYN</p></div><div class="discount"><p>9 BYN</p></div></div>
+            <div class="block-katalog-products-click"><span><a href="/Sites/0039820/Coffee_Blend_Crema.html" class="click-products">Подробнее</a><span></span></span></div> 
+    </div>
+</div>
+</div>
+<div class="block-katalog-products" id="block-2">
+<div class="block-katalog-products-katalog-2">
+
+       <div class="block-katalog-products-rating">
+          <div class="block-katalog-products-top_2">
+             <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <p class="rating">5.0</p> 
+            </div>
+            <div class="block-katalog-products-weight">
+              <form class="block-katalog-products-choose" method=get action="/action">
+                 <select name="weight-BLACK OP-second" class="products">
+                 <option class="first" value="1">150г.</option>
+                 <option class="second" value="2">200г.</option>
+                 </select>
+             </form>
+          </div>
+      </div>
+       <div class="block-katalog-products-discribe">
+          <div class="block-katalog-products-image">
+                <img src="images/Tea2.jpeg" alt="Упаковка чая Leaflet species BLACK OP">
+          </div>
+      </div>
+        <div class="block-katalog-products-title"><p>Leaflet species BLACK OP</p></div>
+
+        <div class="block-katalog-products-footer">
+            <div class="block-katalog-products-cost"><p><span>от</span>10 BYN</p></div>
+            <div class="block-katalog-products-click"><span><a href="/Sites/0039820/Coffee_Blend_Crema.html" class="click-products">Подробнее</a><span></span></span></div> 
+    </div>
+</div>
+</div>
+
+
+<div class="block-katalog-products" id="block-3">
+  <div class="block-katalog-products-katalog-3">
+
+       <div class="block-katalog-products-rating">
+          <div class="block-katalog-products-top_3">
+             <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <p class="rating">5.0</p> 
+            </div>
+            <div class="block-katalog-products-weight">
+              <form class="block-katalog-products-choose" method=get action="/action">
+                 <select name="weight-GREEN OP" class="products">
+                 <option class="first" value="1">150г.</option>
+                 <option class="second" value="2">200г.</option>
+                 </select>
+             </form>
+          </div>
+      </div>
+       <div class="block-katalog-products-discribe">
+          <div class="block-katalog-products-image">
+                <img src="images/Tea-green.jpeg" alt="Упаковка чая Large leaf species GREEN OP">
+                <div class="block-katalog-products-discount"><span class="material-symbols-outlined">percent</span></div>
+          </div>
+      </div>
+        <div class="block-katalog-products-title"><p>GREEN OP</p></div>
+
+        <div class="block-katalog-products-footer">
+            <div class="block-katalog-products-cost"><div class="cost"><p>8 BYN</p></div><div class="discount"><p>7 BYN</p></div></div>
+            <div class="block-katalog-products-click"><span><a href="/Sites/0039820/Coffee_Blend_Crema.html" class="click-products">Подробнее</a><span></span></span></div> 
+    </div>
+</div>
+</div>
+
+<div class="block-katalog-products" id="block-4">
+<div class="block-katalog-products-katalog-4">
+
+       <div class="block-katalog-products-rating">
+          <div class="block-katalog-products-top_4">
+             <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <p class="rating">4.0</p> 
+            </div>
+            <div class="block-katalog-products-weight">
+              <form class="block-katalog-products-choose" method=get action="/action">
+                 <select name="weight-GREEN CHUNMEE" class="products">
+                 <option class="first" value="1">150г.</option>
+                 <option class="second" value="2">200г.</option>
+                 </select>
+             </form>
+          </div>
+      </div>
+       <div class="block-katalog-products-discribe">
+          <div class="block-katalog-products-image">
+                <img src="images/Tea-green2.jpeg" alt="Упаковка чая GREEN CHUNMEE">
+          </div>
+      </div>
+        <div class="block-katalog-products-title"><p>GREEN CHUNMEE</p></div>
+
+        <div class="block-katalog-products-footer">
+            <div class="block-katalog-products-cost"><p><span>от</span>10 BYN</p></div>
+            <div class="block-katalog-products-click"><span><a href="/Sites/0039820/Coffee_Blend_Crema.html" class="click-products">Подробнее</a><span></span></span></div> 
+    </div>
+</div>
+</div>
+<div class="block-katalog-products" id="block-5">
+<div class="block-katalog-products-katalog-5">
+
+       <div class="block-katalog-products-rating">
+          <div class="block-katalog-products-top_5">
+             <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <p class="rating">5.0</p> 
+            </div>
+            <div class="block-katalog-products-weight">
+              <form class="block-katalog-products-choose" method=get action="/action">
+                 <select name="weight-SENCHA" class="products">
+                 <option class="first" value="1">150г.</option>
+                 <option class="second" value="2">200г.</option>
+                 </select>
+             </form>
+          </div>
+      </div>
+       <div class="block-katalog-products-discribe">
+          <div class="block-katalog-products-image">
+                <img src="images/Tea-green3.jpeg" alt="Упаковка чая SENCHA">
+          </div>
+      </div>
+        <div class="block-katalog-products-title"><p>SENCHA</p></div>
+
+        <div class="block-katalog-products-footer">
+            <div class="block-katalog-products-cost"><p><span>от</span>11 BYN</p></div>
+            <div class="block-katalog-products-click"><span><a href="/Sites/0039820/Coffee_Blend_Crema.html" class="click-products">Подробнее</a><span></span></span></div> 
+    </div>
+</div>
+</div>
+
+
+<div class="block-katalog-products" id="block-6">
+  <div class="block-katalog-products-katalog-6">
+
+       <div class="block-katalog-products-rating">
+          <div class="block-katalog-products-top_6">
+             <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <p class="rating">5.0</p> 
+            </div>
+            <div class="block-katalog-products-weight">
+              <form class="block-katalog-products-choose" method=get action="/action">
+                 <select name="weight-MILK OOLONG" class="products">
+                 <option class="first" value="1">150г.</option>
+                 <option class="second" value="2">200г.</option>
+                 </select>
+             </form>
+          </div>
+      </div>
+       <div class="block-katalog-products-discribe">
+          <div class="block-katalog-products-image">
+                <img src="images/Tea-milk.jpeg" alt="Упаковка чая MILK OOLONG">
+          </div>
+      </div>
+        <div class="block-katalog-products-title"><p>MILK OOLONG</p></div>
+
+        <div class="block-katalog-products-footer">
+            <div class="block-katalog-products-cost"><p><span>от</span>15 BYN</p></div>
+            <div class="block-katalog-products-click"><span><a href="/Sites/0039820/Coffee_Blend_Crema.html" class="click-products">Подробнее</a><span></span></span></div>
+    </div>
+</div>
+</div>
+
+
+<div class="block-katalog-products" id="block-7">
+  <div class="block-katalog-products-katalog-7">
+
+       <div class="block-katalog-products-rating">
+          <div class="block-katalog-products-top_7">
+             <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <p class="rating">0.0</p> 
+            </div>
+            <div class="block-katalog-products-weight">
+              <form class="block-katalog-products-choose" method=get action="/action">
+                 <select name="weight-herbal" class="products">
+                 <option class="first" value="1">&ndash;</option>
+                 </select>
+             </form>
+          </div>
+      </div>
+       <div class="block-katalog-products-discribe">
+          <div class="block-katalog-products-image">
+                <img src="images/Herbal.jpeg" alt="Чай травяной" class="herbal">
+          </div>
+      </div>
+        <div class="block-katalog-products-title"><p>Чай травяной</p></div>
+
+        <div class="block-katalog-products-cost-none"><p>Нет в наличии</p></div>
+</div>
+</div>
+
+<div class="block-katalog-products" id="block-8">
+  <div class="block-katalog-products-katalog-8">
+
+       <div class="block-katalog-products-rating">
+          <div class="block-katalog-products-top_8">
+             <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <p class="rating">5.0</p> 
+            </div>
+            <div class="block-katalog-products-weight">
+              <form class="block-katalog-products-choose" method=get action="/action">
+                 <select name="weight-Matcha" class="products">
+                 <option class="first" value="1">150г.</option>
+                 <option class="second" value="2">200г.</option>
+                 </select>
+             </form>
+          </div>
+      </div>
+       <div class="block-katalog-products-discribe">
+          <div class="block-katalog-products-image">
+                <img src="images/Matcha2.jpeg" alt="Упаковка чая Matcha">
+                <div class="block-katalog-products-discount"><span class="material-symbols-outlined">percent</span></div>
+          </div>
+      </div>
+        <div class="block-katalog-products-title"><p>Matcha</p></div>
+
+        <div class="block-katalog-products-footer">
+            <div class="block-katalog-products-cost"><div class="cost"><p>9 BYN</p></div><div class="discount"><p>7 BYN</p></div></div>
+            <div class="block-katalog-products-click"><span><a href="/Sites/0039820/Coffee_Blend_Crema.html" class="click-products">Подробнее</a><span></span></span></div> 
+    </div>
+</div>
+</div> 
+
+
+<div class="block-katalog-products" id="block-9">
+  <div class="block-katalog-products-katalog-9">
+
+       <div class="block-katalog-products-rating">
+          <div class="block-katalog-products-top_9">
+             <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <p class="rating">5.0</p> 
+            </div>
+            <div class="block-katalog-products-weight">
+              <form class="block-katalog-products-choose" method=get action="/action">
+                 <select name="weight-coffee-first" class="products">
+                 <option class="first" value="1">150г.</option>
+                 <option class="second" value="2">200г.</option>
+                 </select>
+             </form>
+          </div>
+      </div>
+       <div class="block-katalog-products-discribe">
+          <div class="block-katalog-products-image">
+                <img src="images/Coffee-napitok2.jpeg" alt="Упаковка кофе молотого в растворимом">
+          </div>
+      </div>
+        <div class="block-katalog-products-title"><p>Кофе молотый в растворимом</p></div>
+
+        <div class="block-katalog-products-footer">
+           <div class="block-katalog-products-cost"><p><span>от</span>10 BYN</p></div>
+           <div class="block-katalog-products-click"><span><a href="/Sites/0039820/Coffee_Blend_Crema.html" class="click-products">Подробнее</a><span></span></span></div> 
+    </div>
+</div>
+</div> 
+</div> 
+</div>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+<script src="Chose-tea.js"></script>
+</main>
+
+
+
+
+
+
+
+
+<footer>
+  <div class="footer">
+  <div class="footer-container">
+      <div class="footer-container-image">
+      <img src="images/Cup.png" alt="Чашка кофе">
+     </div>
+     <div class="footer-container-text">
+       <h2>Подписка на новости и рассылку</h2>
+       <p>Подпишитесь на нашу рассылку прямо сейчас и будьте в курсе новых поставок, скидок и эксклюзивных предложений.</p>
+       <form method=get action='FindBook.php' class="footer-container-text-form">
+       <input type="email" placeholder="Ваш e-mail" class="subscribe">
+       <button type="submit" class="subscribe-button">Подписаться</button>
+       </form>
+       <p class="ruls">Нажимая на кнопку &quot;Подписаться&quot;, вы принимаете правила <a href="">пользовательского соглашения</a></p>
+     </div>
+  </div>
+<div class="footer-menu">
+         <div class="navbar-footer">
+          <a href="/Sites/0039820/Leonovich_coffee.html" class="logo-footer" id="logo-footer"><img src="images/Logo.svg" alt="Логотип Millor" width="220" height="90"></a>
+          <ul class="menu" id="menu-footer">
+            <li><a href="/index2.html">Кофе</a></li>
+            <li><a href="/Sites/0039820/Chai_i_napitki.html">Чай</a></li>
+            <li><a href="/Sites/0039820/Zdorovoe_pitanie.html">Здоровое питание</a></li>
+            <li><a href="/Sites/0039820/Blog.html">Блог</a></li>
+            <li><a href="/Sites/0039820/Kontakt.html">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+</div>
+</footer>
+  </body>
+</html>
